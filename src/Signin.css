@@ -1,0 +1,42 @@
+.signsection {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.signsection input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  width: 600px;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 0.3rem;
+  background: transparent;
+  color: white;
+}
+
+.signsection button {
+  padding: 0.75rem 1.25rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 0.3rem;
+  background: red;
+  color: white;
+  cursor: pointer;
+  width: 200px;
+}
+
+.signin p{
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    color: white;
+    font-weight: 500;
+}
+
+.signin{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

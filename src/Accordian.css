@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+
+.mainclass{
+    width: 80vw;
+    margin-left: 9.5rem;
+}
+
+.accordion-item{
+    margin-bottom: 0.5rem;
+    background-color: #222;
+}
+
+.greatmain h3{
+    color: white;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-left: 9.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.accordion-button {
+  background-color: #222 !important;
+  color: white !important;
+  font-size: 1.5rem;
+  height: 84px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #222 !important; /* slightly different when open */
+  color: white !important;
+  font-size: 1.5rem;
+}
+
+.accordion-body {
+  background-color: #222 !important;
+  color: white !important;
+  font-size: 1.5rem;
+ 
+}
+
+.accordion-item p{
+    display: block;
+    margin-top: 1rem;
+}

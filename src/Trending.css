@@ -1,0 +1,52 @@
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: scroll;
+    gap: 2.5rem;
+    margin-left: 4rem;
+    width: 90vw;
+    scrollbar-width: none;
+}
+
+.container img{
+    height: 276px;
+    width: 197px;
+    border-radius: 0.5rem; 
+    cursor: pointer;
+}
+
+/* .container img:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+} */
+
+.trending{
+    background-color: black;
+}
+
+
+.trending h3{
+    font-size: 1.5rem;
+    margin-left: 9.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.container button{
+    width: 25px;
+    height: 120px;
+    border-radius: 1rem;
+    background-color: #222;
+    border: none;
+    color: white;
+}
+
+.leftbtn button{
+    margin-right: 1rem;
+}
+
+
